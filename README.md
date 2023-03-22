@@ -2,8 +2,8 @@
 
 ## Важные ссылки
 - [сайт музея](https://yandex.ru/maps/-/CCUKBQHrDA)
-- [miro - задачи на спринт и логика проекта](https://miro.com/ru/)
-- [Katien](https://mrpo.kaiten.ru/space/120891)
+- [miro](https://miro.com/ru/)
+- [katien](https://mrpo.kaiten.ru/space/120891)
 - [результаты опроса](https://docs.google.com/spreadsheets/d/1SeVbWI9-TmHfZct0Rxp7Lupz_vdo8S8jjvpYFE_7yb8/edit#gid=542850325)
 
 
