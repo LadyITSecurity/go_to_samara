@@ -5,6 +5,7 @@
 - [miro](https://miro.com/ru/)
 - [katien](https://mrpo.kaiten.ru/space/120891)
 - [результаты опроса](https://docs.google.com/spreadsheets/d/1SeVbWI9-TmHfZct0Rxp7Lupz_vdo8S8jjvpYFE_7yb8/edit#gid=542850325)
+- [гугл-таблица всех проектов курса](https://docs.google.com/spreadsheets/d/1IlAbponFUFgm7FkBGjHlGewtG0_8-NIfRzYpVNXI5IY/edit#gid=0)
 
 
 
