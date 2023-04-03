@@ -32,4 +32,4 @@ https://docs.google.com/spreadsheets/d/1RmqQeKTj8Hk-FTBGDKh3EViJCfzXpgTw-fRcK7ZM
 
 
 🔥 [файл с вопросами к боту](
-https://docs.google.com/document/d/12_QerHCdVdpMTaG9pNriZQl16zio0LWNBum7eo--zSI/edit) 
+https://docs.google.com/document/d/10SgmObQRwa9hab-BqmhQvx-vWEB6Zl5mx1L93Opn__s/edit) 
