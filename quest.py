@@ -11,7 +11,8 @@
 
 
 class Quest():
-    def __init__(self, id, type, priority, question, hints, media):
+    def __init__(self, id, type, priority, question, hints, answer, media):
+        self.answer = answer
         self.id = id
         self.type = type
         self.priority = priority
