@@ -12,16 +12,17 @@
 
 class Quest():
     def __init__(self, id, type, priority, question, hints, answer, media):
-        self.answer = answer
-        self.id = id
-        self.type = type
-        self.priority = priority
+        self.answer = answer  # хранит ответ пользователя
+        self.id = id  # id вопроса
+        self.type = type  # тип (один из трех: загадка, азбука-морзе, рисование)
+        self.priority = priority  # приоритет
 
-        self.question = question
-        self.hints = hints
-        self.media = media
+        self.question = question  # вопрос
+        self.hints = hints  # список из 3х подсказок
+        self.media = media  # медиа, если имеется
 
-        self.__free = True
+        self.__occupy_by_user = None  # занят пользователем = User()
+        self.__free = True  # свободен ли для прохождения в настоящий момент
 
 
     def is_free(self):
@@ -33,13 +34,14 @@ class Quest():
         return self.__free
 
 
-    def occupy(self):
+    def occupy(self, user):
         """
         Занимает данный квест, если он свободен.
         """
 
         if self.__free == True:
             self.__free = False
+            self.__occupy_by_user = user
 
             return True
 
@@ -54,6 +56,7 @@ class Quest():
 
         if self.__free == False:
             self.__free = True
+            self.__occupy_by_user = None
 
             return True
 

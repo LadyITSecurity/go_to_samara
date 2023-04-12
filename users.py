@@ -4,7 +4,7 @@ class User():
         self.username = username  # никнейм в телеграме
         self.name = name  # имя человека при регистрации
 
-        self.__required_quests = list(range(1, 13))  # заводим список квестов
+        self.__required_quests = list(range(1, 13))  # список квестов для прохождения
 
     def is_free(self):
         """
