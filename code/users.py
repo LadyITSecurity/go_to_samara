@@ -1,4 +1,4 @@
-class User():
+class User:
     def __init__(self, chatId, username, name):
         self.chatId = chatId  # id-чата
         self.username = username  # никнейм в телеграме
