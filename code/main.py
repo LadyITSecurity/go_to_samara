@@ -1,6 +1,5 @@
 from quest import Quest
 from users import User
-
 from aiogram import Bot, Dispatcher, types
 import config
 
