@@ -67,13 +67,9 @@ async def quest_of_Image(self, quest, user, dp):
     return True
 
 
-
-
-
 if __name__ == "__main__":
-
     # Создаём асинхронного бота.
-    tg_bot = Bot(token = config.TOKEN)
+    tg_bot = Bot(token=config.TOKEN)
     dispatcher = Dispatcher(tg_bot)
 
     # Заводим список пользователей, проходящих сейчас квесты параллельно.
@@ -85,7 +81,6 @@ if __name__ == "__main__":
 
     @dispatcher.message_handler(commands=['start'])
     async def start(message):
-
         # TODO: Изменить приветствие, добавить медиа и т.п.
 
         hello_text = "Привет! Добро пожаловать в квест-комнату музея А. Зеленко! Как тебя зовут?"
@@ -94,7 +89,6 @@ if __name__ == "__main__":
 
     @dispatcher.message_handler(commands=['next_quest'])
     async def run_next_quest(message):
-
         # TODO: Написать алгоритм выборки свободного квеста по приоритету.
         pass
 
@@ -102,6 +96,7 @@ if __name__ == "__main__":
     @dispatcher.message_handler(commands=['quit'])
     async def quit_from_game(message):
         pass
+
 
     @dispatcher.message_handler()
     def process_user_answer(message):
