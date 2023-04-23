@@ -10,7 +10,7 @@
 """
 
 
-class Quest():
+class Quest:
     def __init__(self, id, type, priority, question, hints, answer, media):
         self.answer = answer  # хранит ответ пользователя
         self.id = id  # id вопроса
@@ -24,7 +24,6 @@ class Quest():
         self.__occupy_by_user = None  # занят пользователем = User()
         self.__free = True  # свободен ли для прохождения в настоящий момент
 
-
     def is_free(self):
         '''
         Если квест сейчас свободен - вернёт True.
@@ -32,7 +31,6 @@ class Quest():
         '''
 
         return self.__free
-
 
     def occupy(self, user):
         """
@@ -47,7 +45,6 @@ class Quest():
 
         else:
             return False
-
 
     def free(self):
         '''
