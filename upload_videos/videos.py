@@ -14,6 +14,7 @@ for root, dirs, files in os.walk('videos'):
         video = cv2.VideoCapture(file)
         success, img = video.read()
         tasks_video[file[:-4]] = img
+        video.release()
 
 for key, value in tasks_video.items():
     print(key, ' -> ', value)
