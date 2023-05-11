@@ -11,6 +11,7 @@ class States(Helper):
     REGISTER = ListItem()
     AWAIT_QUEST = ListItem()
     GO_TO_NEXT = ListItem()
+    GOODBYE = ListItem()
 
 
 class States_Quest(Helper):
