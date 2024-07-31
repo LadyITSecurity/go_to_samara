@@ -1,5 +1,8 @@
 # Квест-бот музея модерна
 
+
+![Иллюстрация к проекту](https://github.com/ladyitsecurity/go_to_samara/blob/main/June%2021.gif)
+
 ## Важные ссылки
 
 - [сайт музея](https://yandex.ru/maps/-/CCUKBQHrDA)
